@@ -40,7 +40,7 @@ sand = 0.05
 mountain = 0.75
 
 
-FONT = pygame.font.Font(None, size=30)
+FONT = pygame.font.Font("Art/m3x6.ttf", size=30)
 
 def tiledetermine(hight, montaincond, forest):
     if hight < waterlevel:
